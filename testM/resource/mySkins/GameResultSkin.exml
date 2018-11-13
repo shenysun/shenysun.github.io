@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameResultSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="1920" height="1080">
+	<e:Rect id="alphaRect1" width="1920" height="1080" x="0" y="-1080" alpha="0.6"/>
+	<e:Rect id="alphaRect" width="1920" height="1080" x="0" y="0" alpha="0.6"/>
+	<e:Rect id="alphaRect0" width="1920" height="1080" x="0" y="1080" alpha="0.6"/>
+	<e:Image source="jiesuanBG_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="-21%"/>
+
+
+	<e:Group horizontalCenter="0" verticalCenter="-15%">
+
+		<e:Group id="group_result1" x="10" verticalCenter="-29.5">
+			<e:Image id="img_result1" source="loseBG_png" x="0" y="0"/>
+
+			<e:Group id="gp_people1" width="490" height="200" x="117" y="203"/>
+			<e:Label id="lab_myName" text="黑凤梨" x="30" y="10" scaleX="1" scaleY="1" width="300" size="40"/>
+			<e:Group id="group_flower" width="200" height="200" scaleX="1" scaleY="1" horizontalCenter="-170" x="693" verticalCenter="0"/>
+		</e:Group>
+		<e:Group id="group_result2" x="807.72" y="0.91">
+			<e:Image id="img_result2" x="0" y="0" source="winBG_png"/>
+
+			<e:Group id="gp_people2" width="490" height="200" x="117" y="203" scaleX="1" scaleY="1"/>
+			<e:Label id="lab_otherName" text="对手" x="30" y="10" scaleX="1" scaleY="1" anchorOffsetX="0" width="300" size="40"/>
+		</e:Group>
+		<e:Group id="gp_particle" width="1575.39" height="558" x="-31" y="-41" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+		</e:Group>
+		</e:Group>
+
+	<e:Group id="gp_wenzi" width="1578.79" height="539.39" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="-20.5"/>
+	<e:Group id="group_selected" anchorOffsetX="0" bottom="8.5%" horizontalCenter="0" width="576" height="159">
+		<e:Rect width="155" height="155" x="-5" y="0" fillColor="0xFFFFFF" ellipseWidth="50" ellipseHeight="50" visible="false"/>
+		<e:Rect width="310" height="155" x="272" y="0" fillColor="0xFFFFFF" ellipseWidth="50" ellipseHeight="50" anchorOffsetX="0" visible="false"/>
+	</e:Group>
+	<e:Group id="group_btns" bottom="8%" horizontalCenter="0">
+		<e:Button id="btn_leave" label="" x="0" y="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btnCancel_png" source.down="btnCancel_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="btn_again" label="" x="279" y="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="again_png" source.down="again_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

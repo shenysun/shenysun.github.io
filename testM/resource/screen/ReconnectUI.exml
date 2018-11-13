@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ReconnectUISkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="165d1cd1f71" ></w:Config>
+	<e:Image anchorOffsetX="0" anchorOffsetY="0" fillMode="scale" left="0" right="0" top="0" bottom="0" source="bg0_png"/>
+	<e:Group y="56" horizontalCenter="0">
+		<e:Button id="btn_return" label="" x="0" y="9" anchorOffsetY="0" height="100" width="250">
+		</e:Button>
+		<e:Label id="lab_title0" text="断线重连" size="36" textAlign="left" height="50" verticalAlign="middle" textColor="0xFFFFFF" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+	<e:Rect width="540" height="50" y="334.57" ellipseWidth="15" ellipseHeight="15" fillAlpha="0.2" strokeWeight="2" fillColor="0x545454" strokeColor="0x545454" horizontalCenter="0"/>
+	<e:Label id="lab_note" text="重连中..." y="348" size="24" textColor="0x00c1e0" width="200" textAlign="center" horizontalCenter="0"/>
+</e:Skin>

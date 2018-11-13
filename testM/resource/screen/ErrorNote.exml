@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ErrorNoteSkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="165d1cc6d2c" ></w:Config>
+	<e:Image anchorOffsetX="0" anchorOffsetY="0" fillMode="scale" left="0" right="0" top="0" bottom="0" source="bg0_png"/>
+	<e:Group y="56" left="0" right="0">
+		<e:Label id="lab_userID" text="用户ID：" x="812" y="13" size="24" textColor="0x999999" textAlign="left" verticalAlign="middle" width="178"/>
+		<e:Label id="lab_title" text="错误" x="49" y="0" size="36" textAlign="left" height="50" verticalAlign="middle" textColor="0xffffff"/>
+	</e:Group>
+	<e:Button id="btn_reconnect" label="重连" width="240" height="70" scaleX="2" scaleY="2" verticalCenter="0" horizontalCenter="0"/>
+	<e:Button id="btn_return" label="重连到房间" anchorOffsetY="0" height="70" width="240" skinName="skins.ButtonSkin" anchorOffsetX="0" scaleX="2" scaleY="2" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>
